@@ -6,7 +6,7 @@
     <article class="p-20">
       <h1 class="text-left text-colorwhite text-5xl">Hola, soy Wiliams</h1>
       <p class="text-left text-colorwhite text-2xl pt-3">
-        Backend y frontend developer
+        Backend y frontend developer.
       </p>
 
       <section class="grid grid-cols-4 gap-3 my-4">
