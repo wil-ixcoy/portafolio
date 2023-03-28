@@ -3,7 +3,7 @@
     <h1 class="text-4xl mt-12 text-colorwhite">Mis Proyectos</h1>
     <h2 class="text-3xl text-left text-primary">Proyectos Frontend:</h2>
 
-    <section class="grid grid-cols-4 gap-4">
+    <section class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5 gap-4">
       <!-- primer proyecto Weather App -->
       <section class="bg-secundary rounded-md drop-shadow-2xl mt-6">
         <img
@@ -145,7 +145,7 @@
     <!-- proyectos backend developer -->
     <h2 class="text-3xl text-left text-primary mt-12">Proyectos Backend:</h2>
 
-    <section class="grid grid-cols-4 gap-4">
+    <section class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5 gap-4">
       <!-- primer proyecto clon de pinterest-->
       <section class="bg-secundary rounded-md drop-shadow-2xl mt-6">
         <img

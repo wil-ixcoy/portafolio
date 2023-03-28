@@ -1,6 +1,6 @@
 <template>
   <div class="bg-secundary">
-    <section class="grid grid-cols-2 gap-2 mt-4 py-5 px-24">
+    <section class="grid grid-cols-1 sm:grid-cols-2 gap-2 mt-4 py-5 px-12 sm:px-24">
       <img src="../assets/fotoperfil.png" alt="" />
 
       <section class="">
