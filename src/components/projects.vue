@@ -1,9 +1,11 @@
 <template>
   <div>
-    <h1 class="text-4xl mt-12 text-colorwhite">Mis Proyectos</h1>
-    <h2 class="text-3xl text-left text-primary">Proyectos Frontend:</h2>
+    <h1 class=" text-3xl text-center lg:text-4xl mt-12 text-colorwhite">Mis Proyectos</h1>
+    <h2 class="text-xl sm:text-2xl lg:text-3xl ml-4 text-left text-primary">Proyectos Frontend:</h2>
 
-    <section class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5 gap-4">
+    <section
+      class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5 gap-4 px-4"
+    >
       <!-- primer proyecto Weather App -->
       <section class="bg-secundary rounded-md drop-shadow-2xl mt-6">
         <img
@@ -30,7 +32,7 @@
             <img class="w-7 h-7" src="../assets/tecnologias/vue.svg" alt="" />
           </section>
 
-          <div class="flex justify-between mt-5 px-8">
+          <div class="grid grid-cols-1 sm:grid-cols-2 mt-5 px-8">
             <button
               class="bg-primary rounded py-2 px-4"
               onclick="window.open('https://github.com/wil-ixcoy/Weather')"
@@ -38,7 +40,7 @@
               GitHub
             </button>
             <button
-              class="text-colorwhite border-primary rounded py-2 px-4"
+              class="text-colorwhite border-primary border-2 rounded py-2 px-4 mt-4 sm:mt-0 sm:ml-4"
               onclick="window.open('https://jolly-dubinsky-4b78aa.netlify.app/#/')"
             >
               Demo
@@ -84,12 +86,14 @@
           >
             GitHub
           </button> -->
-            <button
-              class="text-colorwhite border-primary rounded py-2 px-8"
-              onclick="window.open('https://iquela.web.app/')"
-            >
-              Demo
-            </button>
+            <section class="flex justify-center">
+              <button
+                class="text-colorwhite border-primary border-2 rounded py-2 px-8"
+                onclick="window.open('https://iquela.web.app/')"
+              >
+                Demo
+              </button>
+            </section>
           </div>
         </div>
       </section>
@@ -131,21 +135,25 @@
           >
             GitHub
           </button> -->
-            <button
-              class="text-colorwhite border-primary rounded py-2 px-8"
-              onclick="window.open('https://iquela-registro.web.app/')"
-            >
-              Demo
-            </button>
+            <section class="flex justify-center">
+              <button
+                class="text-colorwhite border-primary border-2 rounded py-2 px-8 mt-4"
+                onclick="window.open('https://iquela-registro.web.app/')"
+              >
+                Demo
+              </button>
+            </section>
           </div>
         </div>
       </section>
     </section>
 
     <!-- proyectos backend developer -->
-    <h2 class="text-3xl text-left text-primary mt-12">Proyectos Backend:</h2>
+    <h2 class="text-xl sm:text-2xl lg:text-3xl ml-4 text-left text-primary mt-12">Proyectos Backend:</h2>
 
-    <section class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5 gap-4">
+    <section
+      class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5 gap-4 px-4"
+    >
       <!-- primer proyecto clon de pinterest-->
       <section class="bg-secundary rounded-md drop-shadow-2xl mt-6">
         <img
@@ -190,7 +198,7 @@
             />
           </section>
 
-          <div class="flex justify-between mt-5 px-8">
+          <div class="grid grid-cols-1 sm:grid-cols-2 mt-5 px-8">
             <button
               class="bg-primary rounded py-2 px-4"
               onclick="window.open('https://github.com/wil-ixcoy/Pinterest_Clon')"
@@ -198,7 +206,7 @@
               GitHub
             </button>
             <button
-              class="text-colorwhite border-primary rounded py-2 px-4"
+              class="text-colorwhite border-primary border-2 rounded py-2 px-4 mt-4 sm:mt-0 sm:ml-4"
               onclick="window.open('https://pinterestclon-production.up.railway.app/api/docs/')"
             >
               Demo
@@ -251,7 +259,7 @@
             />
           </section>
 
-          <div class="flex justify-between mt-5 px-8">
+          <div class="grid grid-cols-1 sm:grid-cols-2 mt-5 px-8">
             <button
               class="bg-primary rounded py-2 px-4"
               onclick="window.open('https://github.com/wil-ixcoy/Draux')"
@@ -259,7 +267,7 @@
               GitHub
             </button>
             <button
-              class="text-colorwhite border-primary rounded py-2 px-4"
+              class="text-colorwhite border-primary border-2 rounded py-2 px-4 mt-4 sm:mt-0 sm:ml-4"
               onclick="window.open('https://draux-production.up.railway.app/api/v1/docs/')"
             >
               Demo
@@ -267,7 +275,7 @@
           </div>
         </div>
       </section>
-      <!-- tercer proyecto Playit-->
+      <!-- tercer proyecto Platzi Store-->
       <section class="bg-secundary rounded-md drop-shadow-2xl mt-6">
         <img
           src="https://picsum.photos/200/300"
@@ -312,9 +320,9 @@
             />
           </section>
 
-          <div class="mt-5 px-8">
+          <div class="flex justify-center">
             <button
-              class="bg-primary rounded py-2 px-4"
+              class="bg-primary rounded py-2 px-8 mt-3"
               onclick="window.open('https://github.com/wil-ixcoy/myStore-nodeExpress')"
             >
               GitHub
@@ -356,7 +364,7 @@
             />
           </section>
 
-          <div class="flex justify-between mt-5 px-8">
+          <div class="grid grid-cols-1 sm:grid-cols-2 mt-5 px-8">
             <button
               class="bg-primary rounded py-2 px-4"
               onclick="window.open('https://github.com/wil-ixcoy/telegram_Bot')"
@@ -364,7 +372,7 @@
               GitHub
             </button>
             <button
-              class="text-colorwhite border-primary rounded py-2 px-4"
+              class="text-colorwhite border-primary border-2 rounded py-2 px-4 mt-4 sm:mt-0 sm:ml-4"
               onclick="window.open('https://t.me/weatherByWiliams_bot')"
             >
               Demo
