@@ -48,10 +48,11 @@
         </a>
       </section>
 
-<button class="rounded-lg border-black py-2 px-5 my-4 bg-primary mx-24 sm:ml-auto sm:mr-0">
-  Contactame
-</button>
-
+      <button
+        class="rounded-lg border-black py-2 px-5 my-4 bg-primary mx-24 sm:ml-auto sm:mr-0"
+      >
+        Contactame
+      </button>
     </article>
     <article class="flex justify-center items-center">
       <img src="../assets/fotoperfil.png" alt="" />
