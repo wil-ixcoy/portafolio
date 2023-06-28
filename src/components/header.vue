@@ -2,21 +2,21 @@
 </script>
 
 <template>
-  <section class="grid sm:grid-cols-1 md:grid-cols-2 gap-10 mx-auto">
+  <section class="grid sm:grid-cols-1 gap-10 mx-auto">
     <article class="sm:p-10">
       <h1
-        class="text-center md:text-left text-colorwhite text-3xl md:text-4xl lg:text-5xl"
+        class="text-center text-colorwhite text-3xl md:text-4xl lg:text-5xl"
       >
         Hola, soy Wiliams
       </h1>
       <p
-        class="text-center md:text-left text-colorwhite text-xl lg:text-2xl pt-3"
+        class="text-center text-colorwhite text-xl lg:text-2xl pt-3"
       >
         Backend y frontend developer.
       </p>
 
       <section
-        class="grid grid-cols-4 gap-3 my-4 mx-2 text-center sm:text-left"
+        class="grid grid-cols-4 gap-3 my-4 mx-2 text-center"
       >
         <a
           target="_blank"
@@ -53,9 +53,6 @@
       >
         Contactame
       </button>
-    </article>
-    <article class="flex justify-center items-center">
-      <img src="../assets/fotoperfil.png" alt="" />
     </article>
   </section>
 </template>
